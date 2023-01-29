@@ -1,8 +1,8 @@
-.cover__overlay {
+.cover_overlay {
     position: relative;
 }
 
-.cover__overlay::after {
+.cover_overlay::after {
     content: '';
     background-color: #2A2C2F;
     opacity: 0.3;
@@ -13,6 +13,6 @@
     height: 100%;
 }
 
-.cover__overlay:hover::after {
+.cover_overlay:hover::after {
     opacity: 0.8;
 }

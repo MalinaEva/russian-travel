@@ -5,7 +5,6 @@
     margin: 27px 0 0;
 }
 
-
 .place__paragraph:first-of-type {
     margin-top: 0;
 }
@@ -20,10 +19,6 @@
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
-        margin: 25px 0 0;
-    }
-
-    .place__paragraph:nth-child(2n) {
         margin-top: 25px;
     }
 }
@@ -31,11 +26,8 @@
 @media screen and (max-width: 767px) {
     .place__paragraph {
         font-size: 16px;
+        line-height: 26px;
         margin: 25px auto 0;
         width: 288px;
-    }
-
-    .place__paragraph:nth-child(2n) {
-        margin-top: 25px;
     }
 }

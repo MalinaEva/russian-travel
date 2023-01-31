@@ -3,13 +3,11 @@
     gap: 18px;
     font-size: 24px;
     line-height: 28px;
-    text-align: right;
 }
 
 @media screen and (max-width: 767px) {
     .header__lang-links {
-    gap: 18px;
-    font-size: 18px;
-    line-height: 20px;
+        font-size: 18px;
+        line-height: 20px;
     }
 }

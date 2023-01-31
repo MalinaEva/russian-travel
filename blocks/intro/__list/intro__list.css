@@ -4,18 +4,18 @@
     font-size: 12px;
     line-height: 1.5;
     padding: 0;
-    width: 690px;
+    max-width: 690px;
 }
 
 @media screen and (max-width: 1023px) {
     .intro__list {
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro__list {
-        width: 100%;
+        max-width: 100%;
         margin: 34px 0 0;
     }
 }
